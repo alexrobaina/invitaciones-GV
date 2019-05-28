@@ -1,0 +1,38 @@
+.parallax {
+    margin-top: 150px;
+    /* The image used */
+    background-image: url("../../assets/_24A8255.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .top-190 {
+      margin-top: 190px;
+  }
+
+  .modal-content {
+      width: 320px;
+      padding: 30px;
+  }
+
+  .text-regalo p {
+        font-family: 'Cabin', sans-serif;
+      color: white;
+      font-size: 25px;
+      line-height: 30px;
+      letter-spacing: 1px;
+  }
+
+  @media (max-width: 600px) {
+    .text-regalo p {
+      font-size: 15px;
+      line-height: 30px;
+      letter-spacing: 1px;
+  }
+}
