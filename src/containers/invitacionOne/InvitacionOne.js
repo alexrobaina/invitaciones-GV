@@ -1,12 +1,17 @@
 import React, { Component } from "react"; 
-import background from '../../assets/_24A8216.jpg'
 import Countdown from "../../components/countdown/Countdown";
+import Background from "../../components/background/Background";
+import History from "../../components/history/history";
+import InfoCard from "../../components/infoCard/InfoCard";
 
 
 import "./invitacionOne.css";
+import Parallax from "../../components/parallax/Parallax";
+import Carousel from "../../components/carousel/Carousel";
+import ConfirmAssistance from "../../components/confirmAssistance/ConfirmAssistance";
     
-    export default class InvitacionOne extends Component {
- 
+export default class InvitacionOne extends Component {
+
 
     render() {
         const currentDate = new Date();
@@ -14,17 +19,29 @@ import "./invitacionOne.css";
  
         return (
     <div>
-        <img  className="img-fluid" src={background} alt=""/>
-        <div className="container-fluid">
-            
-            <div className="row">
-                    <div className="col-md-12 center title">        
-                    <p>Nos casamos! y queremos compartirlo con vos!</p>
-                    <p>Faltan:</p>
-                    <Countdown date={`${year}-11-16T12:30:00`} />
-                </div>
+
+        <Background />
+
+        <History />
+
+        {/* Timer */}
+        
+        <div>
+            <div className="count">
+                <p className="timer">Faltan:</p>
+                <Countdown date={`${year}-11-16T12:30:00`} />
             </div>
         </div>
+    
+        {/* END */}
+
+        <InfoCard />
+
+        <Parallax />
+
+        <Carousel />
+        
+        <ConfirmAssistance />
 
     </div>
 

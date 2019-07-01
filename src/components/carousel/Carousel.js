@@ -1,22 +1,29 @@
 import React, { Component } from "react"; 
 
-import aleSeba from '../../assets/_24A7778.jpg'
 
-import img1 from '../../assets/_24A7791.jpg'
-import img2 from '../../assets/_24A8169.jpg'
-import img3 from '../../assets/_24A8178.jpg'
-import img4 from '../../assets/_24A8216.jpg'
-import img5 from '../../assets/_24A8255.jpg'
+import aleSeba from '../../assets/carrousel/_24A7966.jpg'
+
+import img2 from '../../assets/carrousel/_24A8080.jpg'
+import img3 from '../../assets/carrousel/_24A8181.jpg'
+import img4 from '../../assets/carrousel/_24A8222.jpg'
+import img5 from '../../assets/carrousel/_24A8352.jpg'
+import img6 from '../../assets/carrousel/_24A8359.jpg'
+import img7 from '../../assets/carrousel/_24A8424.jpg'
+import img8 from '../../assets/carrousel/_24A8441.jpg'
+
 
 
 import "./carousel.css";
 
 const ellos = [
-    {img: img1},
+ 
     {img: img2},
     {img: img3},
     {img: img4},
-    {img: img5}
+    {img: img5},
+    {img: img6},
+    {img: img7},
+    {img: img8}
  
 ]
     

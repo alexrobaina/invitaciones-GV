@@ -1,19 +1,18 @@
 .title {
     position: absolute;
-    top: 250px;
-    font-size: 40px;
+    top: 10px;
+    font-size: 20px;
     text-align: center;
-    color: white;
+    color: rgb(67, 67, 67);
+    font-family: 'DM Serif Text', serif;
 }
 
+.timer {
+    display: inline
+}
 
-@media (max-width: 600px) {
-    .title {
-        position: absolute;
-        top: 50px!important;
-        font-size: 15px;
-        text-align: center;
-        color: white;
-    }
-    
+.count {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }

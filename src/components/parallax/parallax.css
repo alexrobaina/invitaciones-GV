@@ -1,7 +1,8 @@
 .parallax {
     margin-top: 150px;
     /* The image used */
-    background-image: url("../../assets/_24A8255.jpg");
+    background: black;
+    background-image: url("../../assets/_24A8317.jpg");
     /* Set a specific height */
     min-height: 500px; 
   
@@ -22,8 +23,8 @@
   }
 
   .text-regalo p {
-        font-family: 'Cabin', sans-serif;
-      color: white;
+      font-family: 'Cabin', sans-serif;
+      color: rgb(255, 255, 255);
       font-size: 25px;
       line-height: 30px;
       letter-spacing: 1px;

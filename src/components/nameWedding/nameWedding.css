@@ -1,0 +1,13 @@
+.content-name {
+    display: absolute;
+    margin-top: -180px;
+    display: flex;
+    justify-content: center;
+}
+
+.name-wedding {
+    z-index: 1000;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(252, 252, 252);
+}
