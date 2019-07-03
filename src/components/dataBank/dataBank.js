@@ -2,16 +2,15 @@ import React, { Component } from "react";
 
 
 
-import "./parallax.css";
+import "./dataBank.css";
     
-    export default class Parallax extends Component {
+    export default class DataBack extends Component {
  
 
     render() {
        
         return (
-            <div className="parallax">
-                <div className="container-fluid">
+            <div>
                     <div className="row">
                         <div className="col-md-12 center-flex top-190 text-regalo">
                             <p className="regalo">¿Queres hacernos un regalo?</p>
@@ -37,8 +36,8 @@ import "./parallax.css";
                             </div>
                         </div>
                     </div>
+
                 </div>
-            </div>
 
 
     );

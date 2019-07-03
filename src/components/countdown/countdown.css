@@ -1,3 +1,35 @@
+.parallax-count {
+  margin-top: 150px;
+  /* The image used */
+  background-image: url("../../assets/_24A8317.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.16);
+  filter: drop-shadow(0px 13px 22px  rgb(235, 235, 235));
+}
+
+.timer-count {
+  display: flex;
+  justify-content: center;
+}
+
 .Countdown-col-element {
-    margin-left: 15px;
-  }
+  z-index: 1000;
+  margin-top: 50%;
+  margin-left: 15px;
+  font-family: "DM Serif Text", serif;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 13px #29292946;
+}
+
+.timer {
+  display: inline;
+}

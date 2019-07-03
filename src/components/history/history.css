@@ -1,16 +1,22 @@
 .title-history {
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 1.3px;
 }
 
 .history {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.9px;
 }
 
 .text {
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
     width: 700px;
 

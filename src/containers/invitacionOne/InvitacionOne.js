@@ -6,9 +6,10 @@ import InfoCard from "../../components/infoCard/InfoCard";
 
 
 import "./invitacionOne.css";
-import Parallax from "../../components/parallax/Parallax";
-import Carousel from "../../components/carousel/Carousel";
 import ConfirmAssistance from "../../components/confirmAssistance/ConfirmAssistance";
+import DataBack from "../../components/dataBank/dataBank";
+import TwoImage from "../../components/twoImage/TwoImage";
+import ImageSingel from "../../components/imageSingel/ImageSingel";
     
 export default class InvitacionOne extends Component {
 
@@ -28,7 +29,6 @@ export default class InvitacionOne extends Component {
         
         <div>
             <div className="count">
-                <p className="timer">Faltan:</p>
                 <Countdown date={`${year}-11-16T12:30:00`} />
             </div>
         </div>
@@ -37,11 +37,13 @@ export default class InvitacionOne extends Component {
 
         <InfoCard />
 
-        <Parallax />
+        <TwoImage />
 
-        <Carousel />
+        <DataBack />
+
+        <ImageSingel />
         
-        <ConfirmAssistance />
+        {/* <ConfirmAssistance /> */}
 
     </div>
 
