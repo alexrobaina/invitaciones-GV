@@ -11,7 +11,7 @@ export default class Background extends Component {
         return (
             <div>
                 <div>
-                    <img  className="img-fluid background-black" src={background} alt=""/>
+                    <img  className="img-fluid" src={background} alt=""/>
                         <NameWedding />         
                     <div className="container-fluid">    
                         <div className="row">

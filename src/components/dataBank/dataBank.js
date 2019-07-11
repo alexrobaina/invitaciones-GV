@@ -15,7 +15,7 @@ import "./dataBank.css";
                         <div className="col-md-12 center-flex top-190 text-regalo">
                             <p className="regalo">¿Queres hacernos un regalo?</p>
                         </div>
-                        <div className="col-md-12 center-flex text-regalo">
+                        <div className="col-md-12 center-flex text-bank">
                             <p className="text-regalo">Podes ayudarnos con la luna de miel haciendo un depósito o transferencia a  <br/> nuestra cuenta bancaria. Muchas gracias!!!</p>
                         </div>
                         <div className="col-md-12 center-flex">

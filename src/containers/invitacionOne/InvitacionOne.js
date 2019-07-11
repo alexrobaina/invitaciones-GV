@@ -37,8 +37,6 @@ export default class InvitacionOne extends Component {
 
         <InfoCard />
 
-        <TwoImage />
-
         <DataBack />
 
         <ImageSingel />

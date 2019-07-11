@@ -1,16 +1,38 @@
 .container-card {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
 }
 .feature {
-    width: 620px;
+    margin-top: 50px;
 }
 
 .material-icons {
     font-size: 100px;
     margin-bottom: 20px;
 }
+
+.image-ubications {
+    margin-top: 50px;
+}
+
+.button-info {
+    margin-top: 50px;
+}
+
+
+.title-card {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1.3px;
+}
+
+.text-card {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
 
 @media (max-width: 600px) {
     .container-card {

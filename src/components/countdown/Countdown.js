@@ -80,35 +80,37 @@ class Countdown extends Component {
 
     return (
       <div>
-        <div className="parallax-count">
-      
-          <div className="timer-count">
-
+          <div className="days">
+            
             <span className="Countdown-col-element">
                 <p className="timer">Faltan: </p>
-                <strong>{this.addLeadingZeros(countDown.days)}</strong>
+                  {this.addLeadingZeros(countDown.days)}
                 <span>{countDown.days === 1 ? ' Dia' :  ' Dias'}</span>
             </span>
+            
+          </div>
+
+          <div className="timer-count numbers-time">
 
             <span className="Countdown-col-element">
-              <strong>{this.addLeadingZeros(countDown.hours)}</strong>
+              {this.addLeadingZeros(countDown.hours)}
               <span>:</span>
             </span>
 
             <span className="Countdown-col-element">
-              <strong>{this.addLeadingZeros(countDown.min)}</strong>
+              {this.addLeadingZeros(countDown.min)}
             <span>:</span>
             </span>
 
 
             <span className="Countdown-col-element">
-              <strong>{this.addLeadingZeros(countDown.sec)}</strong>
+              {this.addLeadingZeros(countDown.sec)}
             </span>
           
           </div>
           <div className="layer"></div>
-        </div>  
-      </div>
+      </div>  
+
 
     );
   }
