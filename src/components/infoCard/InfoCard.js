@@ -15,7 +15,7 @@ const cards = [
     {
         title: 'Civil',
         text: 'Te esperamos el jueves 14 de Noviembre en el Registro Civil de Suipacha,San Martin 319. Luego compartimos todos juntos un almuerzo en Las Brisas.',
-        link: 'https://goo.gl/maps/yGg89Vi5wmTTtsEw8',
+        link: 'https://goo.gl/maps/Ud2TMSH9o2K987hLA',
         icon: icons1,
         photo: image1,
         button: '¿Cómo llego?'
@@ -23,7 +23,7 @@ const cards = [
     {
         title: 'Ceremonia',
         text: 'La ceremonia es a las 16:30 hs. en la Parroquia Nuestra Señora del Rosario, Rivadavia 268, Suipacha. Te esperamos el sábado 16 de noviembre para compartir este gran momento con nosotros.',
-        link: 'https://goo.gl/maps/oGdK2qJvUzwZAaYL7',
+        link: 'https://goo.gl/maps/LKis9rLVBcMsDNu79',
         icon: icons2,
         photo: image2,
         button: '¿Cómo llego?'
@@ -31,7 +31,7 @@ const cards = [
     {
         title: 'Fiesta',
         text: 'Después de la ceremonia seguimos festejando en la Sociedad rural de Suipacha. Queremos que vengan a bailar y celebrar el comienzo de este nuevo camino juntos.',
-        link: 'https://goo.gl/maps/oGdK2qJvUzwZAaYL7',
+        link: 'https://goo.gl/maps/UKAyUFH8RXAGmjFBA',
         icon: icons3,
         photo: image3,
         button: '¿Cómo llego?'

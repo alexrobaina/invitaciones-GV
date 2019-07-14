@@ -27,9 +27,10 @@ import "./dataBank.css";
 
                                         <p>Datos bacarios</p>
                                         <p>Banco Galicia</p>
-                                        <p>CBU: 2312423532645634523</p>
-                                        <p>Numero de cuenta: 444023203040</p>
-                                        <p>Nombre: Alejandra</p>
+                                        <p>DU: 36512203</p>
+                                        <p>CBU: 0070372530004005581611</p>
+                                        <p>ALIAS: AGUJA.POROTO.ARPA</p>
+                                        <p>CUIL: 27365122038</p>
                                     
                                     </div>
                                 </div>

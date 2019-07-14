@@ -4,7 +4,7 @@ import './history.css'
 const history = [
     {
         title: 'NUESTRA HISTORIA',
-        Text: 'és un text de farciment usat per la indústria de la tipografia i la impremta. Lorem Ipsum ha estat el text estàndard de la indústria des de lany 1500, quan un impressor desconegut va fer servir una galerada de text i la va mesclar per crear un llibre de mostres tipogràfiques. és un text de farciment usat per la indústria de la tipografia i la impremta. Lorem Ipsum ha estat el text estàndard de la indústria des de lany 1500, quan un impressor desconegut va fer servir una galerada de text i la va mesclar per crear un llibre de mostres tipogràfiques.'   
+        Text: '12 años atrás comenzamos esta historia de amor. Muchos de ustedes nos acompañan desde el inicio, otros se fueron sumando en el camino. Todos fueron parte de los momentos mas hermosos, de las idas y vueltas, de los aprendizajes y del continuo crecimiento. Queremos celebrar nuestro amor junto a ustedes, porque creemos que el amor hay que festejarlo y compartirlo.'
     }
 ]
 export default class History extends Component {

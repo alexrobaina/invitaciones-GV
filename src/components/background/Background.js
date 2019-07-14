@@ -11,14 +11,14 @@ export default class Background extends Component {
         return (
             <div>
                 <div>
-                    <img  className="img-fluid" src={background} alt=""/>
-                        <NameWedding />         
+                    <img  className="img-fluid" src={background} alt=""/>       
                     <div className="container-fluid">    
                         <div className="row">
                             <div className="col-md-12 center title">        
                                 <p>NOS CASAMOS</p>
                             </div>
                         </div>
+                        <NameWedding />  
                     </div>
                 </div>
             </div>

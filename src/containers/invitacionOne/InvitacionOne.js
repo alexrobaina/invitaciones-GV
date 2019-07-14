@@ -8,7 +8,6 @@ import InfoCard from "../../components/infoCard/InfoCard";
 import "./invitacionOne.css";
 import ConfirmAssistance from "../../components/confirmAssistance/ConfirmAssistance";
 import DataBack from "../../components/dataBank/dataBank";
-import TwoImage from "../../components/twoImage/TwoImage";
 import ImageSingel from "../../components/imageSingel/ImageSingel";
     
 export default class InvitacionOne extends Component {
@@ -41,7 +40,7 @@ export default class InvitacionOne extends Component {
 
         <ImageSingel />
         
-        {/* <ConfirmAssistance /> */}
+        <ConfirmAssistance />
 
     </div>
 

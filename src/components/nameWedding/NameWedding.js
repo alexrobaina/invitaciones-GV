@@ -9,7 +9,7 @@ export default class NameWedding extends Component {
         return (
             
                 <div className="content-name">
-                    <p className="name-wedding">Ale + Taty</p>
+                    <p className="name-wedding">Tati + Ale</p>
                 </div>
             
         );
